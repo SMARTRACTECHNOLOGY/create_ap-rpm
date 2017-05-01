@@ -26,6 +26,15 @@ RPM Spec file for https://github.com/oblique/create_ap[create_ap]
 
 NOTE: This assumes you already copied the `build-rpm.sh` script from https://github.com/SMARTRACTECHNOLOGY/rpmdevtools-docker[rpmdevtools-docker] to a `${PATH}` accessible place.
 
+First you need to get the source code, which if you're on a Linux system can be done by running:
+
+[source, bash]
+----
+spectool -g *spec
+----
+
+Otherwise, just get the `Source0` field and download the tarball.
+
 [source, bash]
 ----
 build-rpm
