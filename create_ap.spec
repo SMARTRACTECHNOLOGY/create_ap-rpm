@@ -2,7 +2,8 @@
 # Upstream package name naturally contains an underscore
 Name:           create_ap
 Version:        0.4.6
-Release:        1
+# Add git hash since we do not have a new release yet.
+Release:        2.git1645986
 Summary:        This script creates a NATed or Bridged WiFi Access Point
 
 Group:          System Environment/Base
