@@ -20,10 +20,10 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-RPM Spec file for https://github.com/oblique/create_ap[create_ap]
+# DEPRECATED
+### This repository has been deprecated, and replaced with https://github.com/SMARTRACTECHNOLOGY/gateway-os
 
-## DEPRECATED
-This repository has been deprecated, and replaced with https://github.com/SMARTRACTECHNOLOGY/gateway-os
+RPM Spec file for https://github.com/oblique/create_ap[create_ap]
 
 == Building
 
